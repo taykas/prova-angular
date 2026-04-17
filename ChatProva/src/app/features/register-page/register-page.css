@@ -1,0 +1,49 @@
+.form-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 30vw;
+    height: 60vh;
+    padding: 10px;
+    border-radius: 5px;
+    
+    background-color: rgb(105, 22, 105);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 80%;
+    color: white;
+}
+
+.form label {
+    align-self: self-start;
+    font-size: large;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+
+    border-radius: 10px;
+}
+
+.form button {
+    width: 50%;
+    padding: 15px;
+
+    border-radius: 10px;
+    font-size: large;
+}

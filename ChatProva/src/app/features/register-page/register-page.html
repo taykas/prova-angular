@@ -1,0 +1,32 @@
+<main class="form-div">
+    <div class="container-form">
+        <form [formGroup]="registerForm" class="form">
+            <label for="">Username</label>
+            <br>
+            <input type="text" formControlName="username">
+            <br>
+        
+            <label for="">Telefone</label>
+            <br>
+            <input type="text" formControlName="phone">
+            <br>
+        
+            <label for="">Email</label>
+            <br>
+            <input type="text" formControlName="email">
+            <br>
+        
+            <label for="">Data Nascimento</label>
+            <br>
+            <input type="text" formControlName="birthday">
+            <br>
+        
+            <label for="">Senha</label>
+            <br>
+            <input type="text" formControlName="password">
+            <br>
+            
+            <button type="submit" (click)="subscribe()">Registrar</button>
+        </form>
+    </div>
+</main>

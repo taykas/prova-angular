@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 8vh;
+
+    background-color: rgb(206, 144, 197);
+
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.title {
+    font-size: xx-large;
+    margin-left: 40px;
+}
+
+.navs {
+    display: flex;
+    width: 15vw;
+    justify-content: space-evenly;
+    font-size: larger;
+}
